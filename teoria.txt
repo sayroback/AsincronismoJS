@@ -1,0 +1,19 @@
+El asincronismo en JS:
+
+JS es un lenguage de prog asincrono y no bloqueante,
+con un manejador de eventos conocido como el EventLoop,
+implementado en un unico hilo para sus interfaces de entrada
+y de salida. 
+
+Asincronismo: accion que no ocurre al mismo timepo.
+
+Memory Heap: Es el espacio en memoria compartido para toda la aplicacion
+Pila de ejecucion (Call stack): Donde nuestras funciones van a ser puestas
+  en ejecicion.
+Cola de tareas: Donde se guardaran los llamados que hagamos
+EventLoop: Es el encargado de preguntar o entender si la pila de ejecucion esta vasio
+entonces resolver del lado de la cola de tareas
+
+
+
+
